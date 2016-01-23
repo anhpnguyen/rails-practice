@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @recycler.name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @recycler.address %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @recycler.phone %>
+</p>
+
+<p>
+  <strong>Website:</strong>
+  <%= @recycler.website %>
+</p>
+
+<p>
+  <strong>Is avail:</strong>
+  <%= @recycler.is_avail %>
+</p>
+
+<%= link_to 'Edit', edit_recycler_path(@recycler) %> |
+<%= link_to 'Back', recyclers_path %>
